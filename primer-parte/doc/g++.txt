@@ -1,0 +1,3 @@
+Tutorial para instalar g++ (MinGw)
+
+https://platzi.com/tutoriales/1189-algoritmos-2017/2765-compilando-cc-desde-visual-studio-code-windows-10/

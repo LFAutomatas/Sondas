@@ -6,22 +6,17 @@ void test(int nodos);
 void readKey();
 
 int main()
-{/*
-  Matrix max;  
-  max.fillMatrix();
-  max.printMatrix();
-  max.floydWarshall();
-  max.printMatrix();*/
-
+{
   test(3);
   test(4);
   test(5);
+  readKey();
   return 0;
 }
 
 void test(int nodos)
 {
-  std::string fileName = "./Aserciones/" + std::to_string(nodos) + "nodos";
+  std::string fileName = "./aserciones/" + std::to_string(nodos) + "nodos";
   std::string extension = ".txt";
   Matrix matrix(fileName + extension, nodos);
   matrix.floydWarshall();
