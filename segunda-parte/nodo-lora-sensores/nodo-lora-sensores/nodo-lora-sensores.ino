@@ -4,10 +4,10 @@
 #define LORA_ENABLE         0L                                                                                                    // | 
 #define RTC_ENABLE          0L                                                                                                    // |
 #define PRUEBAS_ENABLE      0L                                                                                                    // |                                                                                                       // |  
-#define TEMP_ENABLE        1L                                                                                                // |
-#define PH_ENABLE       1L  
-#define COND_ENABLE     1L
-#define TURB_ENABLE       1L                                                                                                  // |                                                                                                  // |  
+#define TEMP_ENABLE         1L                                                                                                // |
+#define PH_ENABLE           1L  
+#define COND_ENABLE         1L
+#define TURB_ENABLE         1L                                                                                                  // |                                                                                                  // |  
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 
 

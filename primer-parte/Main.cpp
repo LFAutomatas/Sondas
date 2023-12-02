@@ -7,6 +7,13 @@ void readKey();
 
 int main()
 {
+  Matrix matrix("data.txt", 5);
+  matrix.floydWarshall();
+  matrix.floydWarshall();
+  matrix.floydWarshall();
+  matrix.floydWarshall();
+  matrix.floydWarshall();
+  matrix.printMatrix();
   test(3);
   test(4);
   test(5);
