@@ -256,9 +256,6 @@ float readTurbidity(void)
   if(aux3<0.00){
     turbidez=3500.00;
   }
-  Serial.print("Turbidez: ");
-  Serial.print(turbidez);
-  Serial.println(" NTU");
   return turbidez;
 }
 
@@ -298,9 +295,9 @@ void loop(void) {
   Serial.print(conductividad);
   Serial.println("uS/cm");
   turbidez = readTurbidity();
-  Serial.print("Conductividad: ");
-  Serial.print(conductividad);
-  Serial.println("uS/cm");
+  Serial.print("Turbidez: ");
+  Serial.print(turbidez);
+  Serial.println(" NTU");
   automata();
   delay(100);
   Serial.println();
